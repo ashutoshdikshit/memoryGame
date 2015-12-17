@@ -1,0 +1,12 @@
+<div class="boardContainer">
+  <h3 class="left marginRight5pc"> Total try's <span class="badge"> {{vm.trys}} </span></h3>
+  <h3 class="right"> Total Found <span class="badge"> {{vm.tilesFound}}</span></h3>
+  <div class="progress gameProgress">
+    <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:"{{vm.gameProgress}}"%;">
+      {{vm.gameProgress}}
+    </div>
+  </div>
+  <div ng-repeat = "tile in vm.tiles track by $index" class="clearRight">
+    <div class="tiles" id="tile_{{$index}}" ng-click="vm.flipTile($event,$index)"></div>
+  </div>
+</div>

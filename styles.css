@@ -1,0 +1,47 @@
+.boardContainer {
+  background-color: #F1F1F1;
+  width: 41%;
+  overflow: auto;
+  padding: 20px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.tiles {
+  background-color: #1995dc;
+  color: #f1f1f1;
+  width:100px;
+  height:100px;
+  float:left;
+  margin:10px;
+  font-size:64px;
+  cursor:pointer;
+  text-align:center;
+  border-radius: 50%;
+}
+
+.pageHeading {
+  font-size: 50px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearRight {
+  clear: right;
+}
+
+.marginRight5pc {
+  margin-right: 5%;
+}
+
+.gameProgress {
+  width: 47%;
+  margin-top: 24px;
+}
